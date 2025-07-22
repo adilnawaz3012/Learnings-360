@@ -1,0 +1,7 @@
+clearfastapi==0.115.11
+uvicorn # tool to run application in production
+gunicorn # for production, can got along with uvicorn
+sqlmodel
+pydantic
+sqlalchemy
+timescaledb

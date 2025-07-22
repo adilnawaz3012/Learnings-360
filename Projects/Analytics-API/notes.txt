@@ -1,0 +1,18 @@
+- Creating a VENV
+    - python3.13 -m venv venv
+- Activating the VENV
+    - source venv/bin/activate
+- Learn: what is ASGI server
+
+- Runnig server usign fastapi
+    - fastapi dev main.py # to use this make sure standard fastapi is installed 
+
+- Running server using uvicorn 
+    - uvicorn main:app --reload   # this command needs to run where main.py is residing and app is the server instance name
+
+- Docker Desktop & Docker Compose
+    - Setting Development Enviroment
+        - 
+
+- Production DockerFile for FastAPI
+    - Setup Development Enviroment

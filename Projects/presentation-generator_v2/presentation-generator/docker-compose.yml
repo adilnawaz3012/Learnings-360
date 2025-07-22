@@ -1,0 +1,14 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: presentation_generator_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+      - ./generated_presentations:/app/generated_presentations # Persist generated files
+    env_file:
+      - .env
